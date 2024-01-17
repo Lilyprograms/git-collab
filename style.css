@@ -1,0 +1,30 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item.active {
+    transform: translateX(0);
+}
+
+.carousel-item.next {
+    transform: translateX(100%);
+}
+
+.carousel-item.prev {
+    transform: translateX(-100%);
+}
