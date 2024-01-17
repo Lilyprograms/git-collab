@@ -1,0 +1,24 @@
+.james{
+    display: flex;
+    height: 400px;
+}
+
+.recipee{
+    background-color: aqua;
+    width: 600px;
+    background-image: url(recipee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.taste{
+    background-color: rgb(65, 20, 213);
+    width: 600px;
+    background-image:url(taste.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.del{
+    color: rgb(77, 16, 220);
+}
