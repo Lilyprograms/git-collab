@@ -247,3 +247,8 @@ section.three-images-section {
   text-align: center;
   color: orangered;
 }
+
+.div_sweet {
+  display: flex;
+  justify-content: center;
+}
