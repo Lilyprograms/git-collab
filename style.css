@@ -28,3 +28,7 @@
 .carousel-item.prev {
     transform: translateX(-100%);
 }
+
+h2{
+    text-align: center;
+}
