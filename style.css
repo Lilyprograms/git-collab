@@ -214,3 +214,36 @@ section.three-images-section {
   border-radius: 30px;
   cursor: pointer;
 }
+.box {
+  background-image: url(img\ Angel2.jpg);
+  background-size: cover;
+  /* height: 500px; */
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 5%;
+}
+.box2 {
+  background-repeat: no-repeat;
+  text-align: left;
+  justify-content: left;
+}
+.pix {
+  /* background-image: url(img\ Angel1.jpg);
+    background-image: url(img\ Angel3.jpg);
+    background-image: url(img\ Angel4.jpg); */
+  /* height: 100px; */
+  width: 80%;
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pix img {
+  width: 30%;
+}
+.box3 {
+  text-align: center;
+  color: orangered;
+}
