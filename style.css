@@ -1,0 +1,12 @@
+*.write{
+    font-size: 50px;
+    font-style: italic;
+    margin-left: 400px;
+}
+.pics{
+    display: flex; 
+}
+.third{
+    height: 40px;
+    width: 40px;
+}
