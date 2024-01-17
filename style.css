@@ -1,0 +1,25 @@
+.section-gds{
+    display: flex;
+    margin-top: 30px;
+}
+.section-gds img{
+    width: 100%;
+}
+.section-text{
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.section-text h1{
+    color: rgb(46, 234, 171);
+}
+.section-text p{
+    font-size: 18px;
+}
+button{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(17, 221, 221);
+    border: none;
+    
+}
