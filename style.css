@@ -1,7 +1,34 @@
 .food1{
     display: flex;
-    background-color: rgb(54, 18, 214);
     justify-content: center;
     text-decoration-color: white;
-    di
+    
+}
+h1{
+    /* background-color: rgb(54, 18, 214); */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.d1{
+    background-color: blueviolet;
+    height: 500px;
+    padding-top: 5%;
+    
+}
+header{
+    text-align: center;
+    font-size: 2em;
+}
+li{
+    margin-bottom: 20%;
+    font-size: 1.2em;
+    list-style-type: none;
+
+}
+.bold{
+    font-size: 1.5em;
+    font-weight: 700;
 }
