@@ -1,6 +1,7 @@
 .carousel {
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .carousel-inner {
@@ -10,6 +11,8 @@
 
 .carousel-item {
     width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .carousel-item img {
@@ -18,7 +21,14 @@
 }
 
 .carousel-item.active {
-    transform: translateX(0);
+    opacity: 1;
+}
+
+.carousel-item.next,
+.carousel-item.prev {
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .carousel-item.next {
@@ -29,6 +39,80 @@
     transform: translateX(-100%);
 }
 
-h2{
-    text-align: center;
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.carousel-prev:focus,
+.carousel-next:focus {
+    outline: none;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel:hover .carousel-prev,
+.carousel:hover .carousel-next {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner {
+        transform: translateX(-100%);
+    }
+
+    .carousel-item.active {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .carousel-item.next {
+        transform: translateX(0);
+    }
+
+    .carousel-item.prev {
+        transform: translateX(0);
+    }
+
+    .carousel-item.next.active,
+    .carousel-item.prev.active {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    .carousel-item.next.active + .carousel-item,
+    .carousel-item.prev.active + .carousel-item {
+        transform: translateX(-100%);
+    }
+
+    .carousel-item.next.active + .carousel-item.active,
+    .carousel-item.prev.active + .carousel-item.active {
+        transform: translateX(0);
+    }
+
+    .carousel-item.next.active + .carousel-item.active + .carousel-item,
+    .carousel-item.prev.active + .carousel-item.active + .carousel-item {
+        transform: translateX(-200%);
+    }
+
+    .carousel-item.next.active + .carousel-item.active + .carousel-item + .carousel-item,
+    .carousel-item.prev.active + .carousel-item.active + .carousel-item + .carousel-item {
+        transform: translateX(-300%);
+    }
+
+    .carousel-prev,
+    .carousel-next {
+        display: block;
+    }
 }
