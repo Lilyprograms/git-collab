@@ -321,29 +321,60 @@ section.three-images-section {
   padding-left: 20px;
   padding-right: 20px;
 }
-.Fooddd{
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    align-items: center;
-    box-shadow: inset 30px;
+.Fooddd {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  box-shadow: inset 30px;
 }
-.img{
-    width: 200px;
-    height: 200px;
-    justify-content: space-between;
+.img {
+  width: 200px;
+  height: 200px;
+  justify-content: space-between;
 }
-.Caption{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.Caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.imgs{
-    gap: 40px;
-    display: flex;
+.imgs {
+  gap: 40px;
+  display: flex;
 }
-.small_text{
-    font-family: cursive;
+.small_text {
+  font-family: cursive;
+}
+.food1 {
+  display: flex;
+  justify-content: center;
+  text-decoration-color: white;
+}
+.d1 h1 {
+  /* background-color: rgb(54, 18, 214); */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.d1 {
+  background-color: blueviolet;
+  height: 500px;
+  padding-top: 5%;
+}
+.d1 header {
+  text-align: center;
+  font-size: 2em;
+}
+.d1 li {
+  margin-bottom: 20%;
+  font-size: 1.2em;
+  list-style-type: none;
+}
+.bold {
+  font-size: 1.5em;
+  font-weight: 700;
 }
