@@ -252,55 +252,72 @@ section.three-images-section {
   display: flex;
   justify-content: center;
 }
-.james{
-    display: flex;
-    height: 400px;
+.james {
+  display: flex;
+  height: 400px;
 }
 
-.recipee{
-    background-color: aqua;
-    width: 600px;
-    background-image: url(recipee.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.recipee {
+  background-color: aqua;
+  width: 600px;
+  background-image: url(recipee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.taste{
-    background-color: rgb(65, 20, 213);
-    width: 600px;
-    background-image:url(taste.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
+.taste {
+  background-color: rgb(65, 20, 213);
+  width: 600px;
+  background-image: url(taste.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.del{
-    color: rgb(77, 16, 220);
+.del {
+  color: rgb(77, 16, 220);
 }
-.intro img{
-    margin: 0;
-    padding: 30px;
-    width:100% ;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.9;
+.intro img {
+  margin: 0;
+  padding: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.intro h1 {
+  text-align: center;
+  display: flex;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0%;
+  margin-left: 500px;
+  margin-top: 50px;
+}
 
+.button {
+  text-align: center;
+  display: flex;
+  border-radius: 25px;
+  color: brown;
 }
-.intro h1{
-    text-align: center;
-    display: flex;
-    font-family: sans-serif;
-    color: rgb(255, 255, 255);
-    position: fixed;
-    top: 0%;
-    margin-left: 500px;
-    margin-top: 50px;
+.write {
+  font-size: 50px;
+  font-style: italic;
+  margin-left: 400px;
 }
-
-.button{
-    text-align: center;
-    display: flex;
-    border-radius: 25px;
-    color: brown;
+.pics {
+  display: flex;
+}
+.third {
+  height: 40px;
+  width: 40px;
+}
+.gilead .btn {
+  font-size: 20px;
+  background-color: blue;
+  padding-left: 20px;
+  padding-right: 20px;
 }
