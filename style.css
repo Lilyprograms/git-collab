@@ -452,3 +452,10 @@ section.three-images-section {
   font-family: tahoma;
   font-size: 0.5cm;
 }
+.footer {
+  text-align: center;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(186, 186, 186, 0.5);
+  background-color: white;
+  margin-top: 20px;
+}
