@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: chocolate;
+}
+
+.div_menu img {
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    color: hsl(0, 21%, 73%);
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
